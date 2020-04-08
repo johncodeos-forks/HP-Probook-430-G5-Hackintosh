@@ -1228,22 +1228,6 @@
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Trackpad.kext</string>
 			</dict>
-			<dict>
-				<key>Comment</key>
-				<string></string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-				<key>Enabled</key>
-				<true/>
-				<key>MinKernel</key>
-				<string></string>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/onyx-the-black-cat</string>
-				<key>BundlePath</key>
-				<string>onyx-the-black-cat.kext</string>
-			</dict>
 		</array>
 		<key>Block</key>
 		<array>
@@ -1411,7 +1395,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Arguments</key>
-				<string>-b -n DSDT -z</string>
+				<string></string>
 				<key>Path</key>
 				<string>acpidump.efi</string>
 				<key>Auxiliary</key>

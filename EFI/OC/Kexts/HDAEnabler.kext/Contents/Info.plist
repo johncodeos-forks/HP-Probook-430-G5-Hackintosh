@@ -31,18 +31,13 @@
 			<key>HDAProperties</key>
 			<dict>
 				<key>PinConfigurations</key>
-				<data>
-				</data>
+				<data></data>
 				<key>built-in</key>
-				<data>
-				AA==
-				</data>
+				<data>AA==</data>
 				<key>hda-gfx</key>
 				<string>&lt;onboard-1&gt;</string>
 				<key>layout-id</key>
-				<data>
-				AgAAAA==
-				</data>
+				<data>AgAAAA==</data>
 			</dict>
 			<key>IOClass</key>
 			<string>HDAEnabler</string>

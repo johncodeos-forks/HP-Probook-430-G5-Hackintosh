@@ -16,14 +16,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-ARPT-RP06-4352.aml</string>
-				<key>Path</key>
-				<string>SSDT-ARPT-RP06-4352.aml</string>
-				<key>Enabled</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>SSDT-FANREAD.aml</string>
 				<key>Path</key>
 				<string>SSDT-FANREAD.aml</string>
@@ -972,6 +964,7 @@
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
 			<dict>
 				<key>layout-id</key>
+				<data>AgAAAA==</data>
 			</dict>
 		</dict>
 	</dict>
@@ -1199,6 +1192,22 @@
 				<key>MinKernel</key>
 				<string></string>
 				<key>ExecutablePath</key>
+				<string>Contents/MacOS/VoodooInput</string>
+				<key>BundlePath</key>
+				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooInput.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+				<key>Enabled</key>
+				<true/>
+				<key>MinKernel</key>
+				<string></string>
+				<key>ExecutablePath</key>
 				<string>Contents/MacOS/VoodooPS2Keyboard</string>
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Keyboard.kext</string>
@@ -1410,34 +1419,6 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>acpidump.efi</string>
-				<key>Name</key>
-				<string>acpidump.efi</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Arguments</key>
-				<string></string>
-				<key>Path</key>
-				<string>acpidump.efi</string>
-				<key>Auxiliary</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>BootKicker.efi</string>
-				<key>Name</key>
-				<string>BootKicker.efi</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Arguments</key>
-				<string></string>
-				<key>Path</key>
-				<string>BootKicker.efi</string>
-				<key>Auxiliary</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>CleanNvram.efi</string>
 				<key>Name</key>
 				<string>CleanNvram.efi</string>
@@ -1447,20 +1428,6 @@
 				<string></string>
 				<key>Path</key>
 				<string>CleanNvram.efi</string>
-				<key>Auxiliary</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>GopStop.efi</string>
-				<key>Name</key>
-				<string>GopStop.efi</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Arguments</key>
-				<string></string>
-				<key>Path</key>
-				<string>GopStop.efi</string>
 				<key>Auxiliary</key>
 				<false/>
 			</dict>
@@ -1515,7 +1482,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 brcmfx-country=#a ps2rst=0 -disablegfxfirmware</string>
+				<string>-v keepsyms=1 brcmfx-country=#a ps2rst=0 -disablegfxfirmware -lilubetaall</string>
 				<key>bootercfg</key>
 				<string>log=0 debug=0 level=0</string>
 				<key>csr-active-config</key>
@@ -1566,7 +1533,7 @@
 			<key>TimerResolution</key>
 			<integer>50000</integer>
 		</dict>
-		<key>Protocols</key>
+		<key>ProtocolOverrides</key>
 		<dict>
 			<key>AppleBootPolicy</key>
 			<false/>

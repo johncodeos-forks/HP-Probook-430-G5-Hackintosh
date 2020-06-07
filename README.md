@@ -5,7 +5,7 @@ Use your own SMBIOS - My SMBIOS here is removed for privacy reasons.
 
 Make sure to use a MacBookPro15,2 SMBIOS or your HDMI won't work.
 
-OpenCore version: 0.5.8
+OpenCore version: 0.5.9
 
 Kexts in the "LE" folder go to /Library/Extensions
 

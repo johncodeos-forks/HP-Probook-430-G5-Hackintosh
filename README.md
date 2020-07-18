@@ -1,11 +1,13 @@
 # HP-Probook-430-G5-Hackintosh
 EFI folder for installing macOS on the Probook 430 G5
 
+Big Sur is supported!
+
 Use your own SMBIOS - My SMBIOS here is removed for privacy reasons.
 
 Make sure to use a MacBookPro15,2 SMBIOS or your HDMI won't work.
 
-OpenCore version: 0.5.9
+OpenCore version: 0.6.0
 
 Kexts in the "LE" folder go to /Library/Extensions
 

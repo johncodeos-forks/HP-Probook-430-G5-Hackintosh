@@ -1086,7 +1086,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>MinKernel</key>
-				<string>20.0.0</string>
+				<string></string>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/AppleAHCIPort</string>
 				<key>BundlePath</key>
@@ -1384,11 +1384,13 @@
 			<key>TakeoffDelay</key>
 			<integer>0</integer>
 			<key>PickerMode</key>
-			<string>Builtin</string>
+			<string>External</string>
 			<key>HideAuxiliary</key>
 			<false/>
 			<key>PickerAudioAssist</key>
 			<false/>
+			<key>PickerAttributes</key>
+			<integer>1</integer>
 		</dict>
 		<key>Debug</key>
 		<dict>
@@ -1409,7 +1411,7 @@
 		<key>Security</key>
 		<dict>
 			<key>AllowNvramReset</key>
-			<true/>
+			<false/>
 			<key>ExposeSensitiveData</key>
 			<integer>2</integer>
 			<key>HaltLevel</key>
@@ -1498,6 +1500,11 @@
 				<key>prev-lang:kbd</key>
 				<data></data>
 				<key>booter-fileset-kernel</key>
+				<data>AA==</data>
+			</dict>
+			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
+			<dict>
+				<key>UIScale</key>
 				<data>AQ==</data>
 			</dict>
 		</dict>
@@ -1507,6 +1514,11 @@
 			<array>
 				<string>boot-args</string>
 				<string>booter-fileset-kernel</string>
+				<string>csr-active-config</string>
+			</array>
+			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
+			<array>
+				<string>UIScale</string>
 			</array>
 		</dict>
 		<key>LegacyEnable</key>
@@ -1525,6 +1537,7 @@
 		<key>Drivers</key>
 		<array>
 			<string>ApfsDriverLoader-64.efi</string>
+			<string>OpenCanopy.efi</string>
 			<string>OpenRuntime.efi</string>
 			<string>VBoxHfs-64.efi</string>
 		</array>

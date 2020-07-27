@@ -40,8 +40,7 @@
 			</dict>
 		</array>
 		<key>Delete</key>
-		<array>
-		</array>
+		<array/>
 		<key>Patch</key>
 		<array>
 			<dict>
@@ -920,8 +919,7 @@
 	<key>Booter</key>
 	<dict>
 		<key>MmioWhitelist</key>
-		<array>
-		</array>
+		<array/>
 		<key>Quirks</key>
 		<dict>
 			<key>AvoidRuntimeDefrag</key>
@@ -973,6 +971,17 @@
 			<dict>
 				<key>layout-id</key>
 				<data>BwAAAA==</data>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1F,0x0)</key>
+			<dict>
+				<key>name</key>
+				<string>pci8086,9d47</string>
+				<key>device-id</key>
+				<data>R50A</data>
+				<key>IOName</key>
+				<string>pci8086,9d47</string>
+				<key>compatible</key>
+				<string>pci8086,9d47</string>
 			</dict>
 		</dict>
 	</dict>
@@ -1270,8 +1279,7 @@
 			</dict>
 		</array>
 		<key>Block</key>
-		<array>
-		</array>
+		<array/>
 		<key>Emulate</key>
 		<dict>
 			<key>Cpuid1Data</key>
@@ -1367,8 +1375,7 @@
 	<key>Misc</key>
 	<dict>
 		<key>BlessOverride</key>
-		<array>
-		</array>
+		<array/>
 		<key>Boot</key>
 		<dict>
 			<key>HibernateMode</key>
@@ -1406,8 +1413,7 @@
 			<true/>
 		</dict>
 		<key>Entries</key>
-		<array>
-		</array>
+		<array/>
 		<key>Security</key>
 		<dict>
 			<key>AllowNvramReset</key>

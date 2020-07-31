@@ -12,7 +12,7 @@ OpenCore version: 0.6.0
 Kexts in the "LE" folder go to /Library/Extensions
 
 After copying them, run this in terminal:
-`sudo touch /Library/Extensions && sudo kextcache -u /`
+`sudo touch /Library/Extensions && sudo kextcache -i /`
 
 aDummyHDA.kext is required for the headphone jack to work! The executable in this kext is a symlink to `/System/Library/Extensions/AppleHDA.kext/Contents/MacOS/AppleHDA`
 

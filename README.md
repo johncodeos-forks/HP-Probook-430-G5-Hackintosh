@@ -11,13 +11,10 @@ OpenCore version: 0.6.0
 
 Kexts in the "LE" folder go to /Library/Extensions
 
-After copying them, run this in terminal:
+After copying them, run this in terminal if you're still using Catalina:
 `sudo touch /Library/Extensions && sudo kextcache -i /`
 
-aDummyHDA.kext is required for the headphone jack to work! The executable in this kext is a symlink to `/System/Library/Extensions/AppleHDA.kext/Contents/MacOS/AppleHDA`
-
-
-IMPORTANT: If you want to use Catalina, remove the AppleAHCIPort.kext from the `EFI/OC/Kexts`, and also don't forget to remove it from the config.plist too.
+IMPORTANT: If you want to use Catalina, remove AppleAHCIPort.kext from the `EFI/OC/Kexts`, and also don't forget to remove it from the config.plist too.
 
 
 Credits
@@ -25,6 +22,6 @@ Credits
 
 Apple for macOS and for streaming WWDC19 to my headphones while I was working on this
 
-RehabMan for the SSDT and for the initial Clover setup - this wouldn't have been possible to complete in such a short time without him!
+@kreizlie for the ACPI configuration
 
 Acidanthera for the kexts and OpenCore

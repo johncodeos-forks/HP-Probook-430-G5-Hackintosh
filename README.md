@@ -16,6 +16,10 @@ After copying them, run this in terminal:
 
 aDummyHDA.kext is required for the headphone jack to work! The executable in this kext is a symlink to `/System/Library/Extensions/AppleHDA.kext/Contents/MacOS/AppleHDA`
 
+
+IMPORTANT: If you want to use Catalina, remove the AppleAHCIPort.kext from the `EFI/OC/Kexts`, and also don't forget to remove it from the config.plist too.
+
+
 Credits
 ------------
 

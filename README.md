@@ -12,7 +12,7 @@ OpenCore version: 0.6.0
 Kexts in the "LE" folder go to /Library/Extensions
 
 After copying them, run this in terminal if you're still using Catalina:
-`sudo touch /Library/Extensions && sudo kextcache -i /`
+`sudo touch /Library/Extensions && sudo kextcache -u /`
 
 IMPORTANT: If you want to use Catalina, remove AppleAHCIPort.kext from the `EFI/OC/Kexts`, and also don't forget to remove it from the config.plist too.
 
